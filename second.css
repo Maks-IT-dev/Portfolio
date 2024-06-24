@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: rgb(43, 41, 44);
+    background: radial-gradient(circle, rgba(43, 41, 44, 1) 0%, rgba(47, 40, 50, 1) 42%, rgba(35, 35, 37, 1) 100%);
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+section {
+    margin: 80px 0;
+}
+
+.btn {
+    display: block;
+    color: #000000;
+    font-size: 24px;
+    height: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 25px;
+}
+
+/* Header */
+
+header {
+    background: #000000;
+    padding: 21px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.my-name {
+    font-weight: 900;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+
+.select::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 140px;
+    transform: translateY(-50%);
+    display: block;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+    border-color: #000000 transparent transparent transparent;
+}
+
+.change-language-select {
+    height: 38px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    appearance: none;
+}
+
+
+/* My Projects */
+
+.logika__project {
+    justify-content: center;
+    color: white;
+    text-align: center;
+    gap: 70px;
+}
+
+.project__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title__my__project {
+   	justify-content: center;
+	color: white;
+	text-align: center;
+	gap: 70px;
+}
+
+.title__my__project h2{
+    font-size: 40px;
+    margin-top: 160px;
+}
+
+
+/* Swiper */
+
+.swiper {
+    margin-top: -45px;
+    width: 683px;
+    height: 379px;
+    user-select: none;
+}
+
+.swiper-slide {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Projects list*/
+
+
+.project__list {
+    text-align: start;
+    padding-right: 200px;
+}
+
+.title__project {
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+.technology__project {
+    padding-bottom: 25px;
+}
+
+.project__list {
+    font-weight: 300;
+}
+
+.deal__with__project {
+    padding-bottom: 25px;
+}
+
+.aim__project {
+    padding-bottom: 25px;
+}
+
+.btn__project {
+	display: flex;
+    justify-content: center;
+	color: #000000;
+	font-size: 26px;
+    font-weight: 600;
+	height: 50px;
+	text-decoration: none;
+	line-height: 50px;
+    margin-top: 45px;
+    max-width: 320px;
+	background: white;
+	border-radius: 25px;
+}
+
+.logo__github {
+    margin-left: 340px;
+}
+
+/* Quiz */
+
+.quiz__project {
+    justify-content: center;
+    color: white;
+    text-align: center;
+    gap: 70px;   
+}
+
+/* Clone Samsung */
+
+.clone__samsung__project {
+    padding-top: 30px;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    gap: 70px;       
+}
+
+/* Resume Model */
+
+.resume__project {
+    padding-top: 30px;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    gap: 70px;
+}
+
+/* Footer */
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 76px;
+}
+
+.container__footer {
+    max-width: 1220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: -45px;
+}
+
+.social__media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: -60px;
+}
+
+.copyright__name {
+    font-size: 14px;
+    font-weight: 600;
+}

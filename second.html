@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./second.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <a href="#" class="my-name" data-lang="en">Maxim Bilyanskyi</a>
+                <a href="#" class="my-name" data-lang="ua">Максим Білянський</a>
+
+                <!-- Навігація -->
+                <nav class="nav-menu row">
+                    <a href="./index.html" class="nav-link" data-lang="en">Home</a>
+                    <a href="./index.html#about" class="nav-link" data-lang="en">About me</a>
+                    <a href="./index.html#skills" class="nav-link" data-lang="en">My Skills</a>
+                    <a href="#projects" class="nav-link" data-lang="en">My Projects</a>
+                    <a href="./index.html#contact" class="nav-link" data-lang="en">Contact us</a>
+                    <!-- UA -->
+                    <a href="./index.html" class="nav-link" data-lang="ua">Додому</a>
+                    <a href="./index.html#about" class="nav-link" data-lang="ua">Про мене</a>
+                    <a href="./index.html#skills" class="nav-link" data-lang="ua">Мої навички</a>
+                    <a href="#projects" class="nav-link" data-lang="ua">Мої проекти</a>
+                    <a href="./index.html#contact" class="nav-link" data-lang="ua">Зв'яжіться з нами</a>
+
+                    <div class="select">
+                        <select id="change-language" class="change-language-select">
+                            <option value="en">English</option>
+                            <option value="ua">Українська</option>
+                        </select>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="title__my__project" id="projects">
+            <h2 data-lang="en">My Projects</h2>
+            <h2 data-lang="ua">Мої проекти</h2>
+        </div>
+
+        <!-- Project 1 -->
+        <section class="logika__project">
+            <div class="project__row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/Screen1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/Screen2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/Screen3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/Screen4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/Screen5.png" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="project__list">
+                    <h3 class="title__project" data-lang="en">Logika game</h3>
+                    <h4 class="technology__project" data-lang="en">Technology used:  <span class="project__list">  HTML, CSS, JavaScript.</span></h4>
+                    <h4 class="deal__with__project" data-lang="en">Deal with: <span class="project__list" data-lang="en">Zhenya Vovk.</span></h4> 
+                    <h4 class="aim__project" data-lang="en">Aim:</h4> <span data-lang="en">Learn how to make a slider and more.</span>
+                    <a href="https://logika-progect.vercel.app/" class="btn__project" data-lang="en">View</a>
+                    <a href="https://github.com/Maks-IT-dev/Logika_Progect.git" class="logo__github" data-lang="en"><img src="img/logo git.png" alt=""></a>
+                    <!-- UA -->
+                    <h3 class="title__project" data-lang="ua">Logika game</h3>
+                    <h4 class="technology__project" data-lang="ua">Технології:  <span class="project__list">  HTML, CSS, JavaScript.</span></h4>
+                    <h4 class="deal__with__project" data-lang="ua">Працював з: <span class="project__list" data-lang="ua">Женя Вовк.</span></h4>
+                    <h4 class="aim__project" data-lang="ua">Мета:</h4> <span data-lang="ua">Дізнатися, як зробити слайдер тощо.</span>
+                    <a href="https://logika-progect.vercel.app/" class="btn__project" data-lang="ua">Переглянути</a>
+                    <a href="https://github.com/Maks-IT-dev/Logika_Progect.git" class="logo__github" data-lang="ua"><img src="img/logo git.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+                 <!-- Project 2 -->
+                <section class="quiz__project">
+                    <div class="project__row">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/Screen6.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/Screen7.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/Screen8.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/Screen9.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/Screen10.png" alt=""></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <div class="project__list">
+                            <h3 class="title__project" data-lang="en">Quiz</h3>
+                            <h4 class="technology__project" data-lang="en">Technology used: <span class="project__list"> HTML, CSS, JavaScript.</span></h4>
+                            <h4 class="aim__project" data-lang="en">Aim:</h4> <span data-lang="en">Improve your knowledge of JavaScript.</span>
+                            <a href="https://project-quiz-kappa.vercel.app/" class="btn__project" data-lang="en">View</a>
+                            <a href="https://github.com/Maks-IT-dev/Project_Quiz.git" class="logo__github" data-lang="en"><img src="img/logo git.png" alt=""></a>
+                            <!-- UA -->
+                            <h3 class="title__project" data-lang="ua">Quiz</h3>
+                            <h4 class="technology__project" data-lang="ua">Технології: <span class="project__list"> HTML, CSS, JavaScript.</span></h4>
+                            <h4 class="aim__project" data-lang="ua">Мета:</h4> <span data-lang="ua">Покращити свої знання JavaScript.</span>
+                            <a href="https://project-quiz-kappa.vercel.app/" class="btn__project" data-lang="ua">Переглянути</a>
+                            <a href="https://github.com/Maks-IT-dev/Project_Quiz.git" class="logo__github" data-lang="ua"><img src="img/logo git.png" alt=""></a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Project 3 -->
+                <section class="clone__samsung__project">
+                    <div class="project__row">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/Screen11.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/Screen12.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/Screen13.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/Screen14.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/Screen15.png" alt=""></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <div class="project__list">
+                            <h3 class="title__project" data-lang="en">Clone_Samsung</h3>
+                            <h4 class="technology__project" data-lang="en">Technology used: <span class="project__list"> HTML, CSS, JavaScript.</span>
+                            </h4>
+                            <h4 class="aim__project" data-lang="en">Aim:</h4> <span data-lang="en">This project aims to gain more knowledge about HTML and CSS</span>
+                            <a href="https://clone-samsung-t1se.vercel.app/" class="btn__project" data-lang="en">View</a>
+                            <a href="https://github.com/Maks-IT-dev/Clone_Samsung.git" class="logo__github" data-lang="en"><img src="img/logo git.png" alt=""></a>
+                            <!-- UA -->
+                            <h3 class="title__project" data-lang="ua">Clone_Samsung</h3>
+                            <h4 class="technology__project" data-lang="ua">Технології: <span class="project__list" data-lang="ua"> HTML, CSS, JavaScript.</span>
+                            </h4>
+                            <h4 class="aim__project" data-lang="ua">Мета:</h4> <span data-lang="ua">Цей проект має на меті отримати більше знань про HTML і CSS</span>
+                            <a href="https://clone-samsung-t1se.vercel.app/" class="btn__project" data-lang="ua">Переглянути</a>
+                            <a href="https://github.com/Maks-IT-dev/Clone_Samsung.git" class="logo__github" data-lang="ua"><img src="img/logo git.png" alt=""></a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Project 4 -->
+                <section class="resume__project">
+                    <div class="project__row">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/Screen16.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/Screen17.png" alt=""></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <div class="project__list">
+                            <h3 class="title__project" data-lang="en">Resume_model</h3>
+                            <h4 class="technology__project" data-lang="en">Technology used: <span class="project__list"> HTML, CSS, JavaScript.</span>
+                            </h4>
+                            <h4 class="aim__project" data-lang="en">Aim:</h4> <span data-lang="en">Learn how to write a resume.</span>
+                            <a href="https://resume-model.vercel.app/" class="btn__project" data-lang="en">View</a>
+                            <a href="https://github.com/Maks-IT-dev/Resume_model.git" class="logo__github" data-lang="en"><img src="img/logo git.png" alt=""></a>
+                            <!-- UA -->
+                            <h3 class="title__project" data-lang="ua">Resume_model</h3>
+                            <h4 class="technology__project" data-lang="ua">Технології: <span class="project__list"> HTML, CSS, JavaScript.</span>
+                            </h4>
+                            <h4 class="aim__project" data-lang="ua">Мета:</h4> <span data-lang="ua">Навчитися складати резюме.</span>
+                            <a href="https://resume-model.vercel.app/" class="btn__project" data-lang="ua">Переглянути</a>
+                            <a href="https://github.com/Maks-IT-dev/Resume_model.git" class="logo__github" data-lang="ua"><img src="img/logo git.png" alt=""></a>
+                        </div>
+                    </div>
+                </section>
+    </main>
+
+    <footer>
+        <div class="container__footer">
+            <div class="row">
+                <div class="social__media">
+                    <img src="img/image 4.png" alt="">
+                    <img src="img/image 5.png" alt="">
+                    <img src="img/image 6.png" alt="">
+                    <img src="img/image 7.png" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <p class="copyright">© 2024 Maks_IT_Dev. All Rights Reserved. Website Design by Maxim Bilyanskyi.</p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./second.js"></script>
+</body>
+
+</html>

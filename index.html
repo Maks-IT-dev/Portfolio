@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<a href="#" class="my-name" data-lang="en">Maxim Bilyanskyi</a>
+				<a href="#" class="my-name" data-lang="ua">Максим Білянський</a>
+
+				<!-- Навігація -->
+				<nav class="nav-menu row">
+					<a href="#home" class="nav-link" data-lang="en">Home</a>
+					<a href="#about" class="nav-link" data-lang="en">About me</a>
+					<a href="#skills" class="nav-link" data-lang="en">My Skills</a>
+					<a href="./second.html" class="nav-link" data-lang="en">My Projects</a>
+					<a href="#contact" class="nav-link" data-lang="en">Contact us</a>
+					<!-- UA -->
+					<a href="#home" class="nav-link" data-lang="ua">Додому</a>
+					<a href="#about" class="nav-link" data-lang="ua">Про мене</a>
+					<a href="#skills" class="nav-link" data-lang="ua">Мої навички</a>
+					<a href="./second.html" class="nav-link" data-lang="ua">Мої проекти</a>
+					<a href="#contact" class="nav-link" data-lang="ua">Зв'яжіться з нами</a>
+					
+					<div class="select">
+						<select id="change-language" class="change-language-select">
+							<option value="en">English</option>
+							<option value="ua" selected="selected">Українська</option>
+						</select>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+
+			<section class="hero" id="home">
+				<div class="row">
+					<div class="hero__image">
+						<img src="img/1625703068_12-kartinkin-com-p-oboi-programmista-krasivie-16 1.png" alt="">
+					</div>
+					<div class="hero__content">
+						<h1 data-lang="en">Hello, i’m Front-end Developer.</h1>
+						<p data-lang="en">My name is Maxim and I like to code. <br>
+							I strives to build creative and beautiful web-sites through <br> carefully crafted code </p>
+						<a href="./second.html" class="btn" data-lang="en">View my projects</a>
+						<!-- UA -->
+						<h1 data-lang="ua">Привіт, я Фронтенд-розробник.</h1>
+						<p data-lang="ua">Мене звуть Максим і я люблю кодувати. <br>
+							Я прагну створювати креативні та красиві веб-сайти за допомогою <br> ретельно розробленого коду </p>
+						<a href="./second.html" class="btn" data-lang="ua">Переглянути мої проекти</a> 
+						<div id="about"></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- About me -->
+			<section class="about__me">
+				<h2 data-lang="en">About me</h2>
+				<h2 data-lang="ua">Про мене</h2>
+				<div class="row">
+					<div class="about__info">
+						<h3 data-lang="en">I’m Creative Front-end Developer Based In Ukraine.</h3>
+                        <br>
+						<p data-lang="en">Hi! My name is Maxim. I’m a Front-end Developer, and I'm very passionate and dedicated to my work. With 1 year of
+                        experience, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the
+                        projecting.</p>
+						<!-- UA -->
+						<h3 data-lang="ua">Я креативний фронтенд-розробник з України.</h3>
+                        <br>					
+						<p data-lang="ua">Привіт! Мене звуть Максим. Я фронтенд-розробник, я дуже захоплений і відданий своїй роботі. Маючи 1 рік досвіду, я набув
+						навичок і знань, необхідних для успіху вашого проекту. Мені подобається кожен крок проектування.</p>
+					</div>
+					
+					<div class="about__list">
+						<table class="table__info">
+							<tr>
+								<td><div class="circle"></div></td>
+								<td data-lang="en">Birthday:</td>
+								<td data-lang="ua">День народження:</td>
+								<td class="list__info">18.04.2008</td>
+							</tr>
+							<tr>
+								<td><div class="circle"></div></td>
+								<td data-lang="en">Age:</td>
+								<td data-lang="ua">Вік:</td>
+								<td class="list__info">16</td>
+							</tr>
+							<tr>
+								<td><div class="circle"></div></td>
+								<td data-lang="en">Email:</td>
+								<td data-lang="ua">Електронна пошта:</td>
+								<td class="list__info">maksimbilasnkij@gmai.com</td>
+							</tr>
+							<tr>
+								<td><div class="circle"></div></td>
+								<td data-lang="en">Phone:</td>
+								<td data-lang="ua">Телефон:</td>
+								<td class="list__info" id="skills">+068 198 72 44</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</section>
+
+			<!-- My skills -->
+			<section class="my__skills">
+                <h2 data-lang="en">My Skills</h2>
+				<h2 data-lang="ua">Мої навички</h2>
+                <div class="row">
+					<!-- Tech Skills -->
+                    <div class="tech__skills">
+                        <h2 data-lang="en">Tech Skills:</h2>
+						<h2 data-lang="ua">Технічні навички:</h2>
+
+						<table class="table__skills">
+							<tr class="list__skills">
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td>HTML5</td>
+							</tr>
+							<tr class="list__skills">
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td>CSS3</td>
+							</tr>
+							<tr class="list__skills">
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td>JavaScript</td>
+							</tr>
+							<tr class="list__skills">
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td>Figma</td>
+							</tr>
+							<tr class="list__skills">
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td>GitHub</td>
+							</tr>
+						</table>
+                    </div>
+					<!-- Soft Skills -->
+                    <div class="soft__skills">
+                        <h2 data-lang="en">Soft Skills:</h2>
+						<h2 data-lang="ua">Гнучкі навички:</h2>
+
+						<table class="table__skills">
+							<tr>
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td data-lang="en">Teamwork</td>
+								<td data-lang="ua">Командна робота</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td data-lang="en">Friendliness</td>
+								<td data-lang="ua">Дружелюбність</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td data-lang="en">Ambitious</td>
+								<td data-lang="ua">Амбітний</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td data-lang="en">Motivated</td>
+								<td data-lang="ua">Мотивований</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="circle__skills"></div>
+								</td>
+								<td data-lang="en">Diligent</td>
+								<td data-lang="ua">Старанний</td>
+							</tr>
+						</table>
+                    </div>
+                </div>
+			</section>
+
+			<!-- Contact us -->
+			<section class="contact__us" id="contact">
+				<h2 data-lang="en">Contact us</h2>
+				<h2 data-lang="ua">Зв'яжіться з нами</h2>
+				
+				<form>
+					<h3 class="contact__us-text" data-lang="en">Name:</h3>
+					<h3 class="contact__us-text" data-lang="ua">Ім'я:</h3>
+					<input class="name__form" type="text" placeholder="Name" value="" maxlength="60">
+					
+
+					<h3 class="contact__us-text" data-lang="en">Email:</h3>
+					<h3 class="contact__us-text" data-lang="ua">Електронна пошта:</h3>
+					<input class="email__form" type="text" placeholder="Email" value="">
+
+					<h3 class="contact__us-text" data-lang="en">Message:</h3>
+					<h3 class="contact__us-text" data-lang="ua">Повідомлення:</h3>
+					<textarea class="message__form" data-minlength="10" id="message" placeholder="Message" name="message" ></textarea>
+
+					<button class="submit" data-lang="en"><p class="btn__text" >Submit</p></button>
+					<button class="submit" data-lang="ua"><p class="btn__text" >Надіслати</p></button>
+				</form>
+			</section>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container__footer">
+			<div class="row">
+				<div class="social__media">
+					<img src="img/image 4.png" alt="">
+					<img src="img/image 5.png" alt="">
+					<img src="img/image 6.png" alt="">
+					<img src="img/image 7.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<p class="copyright">© 2024 Maks_IT_Dev. All Rights Reserved. Website Design by Maxim Bilyanskyi.</p>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="./index.js"></script>
+</body>
+
+</html>
